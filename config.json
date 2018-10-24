@@ -1,8 +1,8 @@
 {
-    "localAddress":"127.0.0.1",
+    "localAddress":"0.0.0.0",
     "localPort": 1210,
-    "serverAddress": "127.0.0.1",
+    "serverAddress": "haha-never.herokuapp.com",
     "serverPort": 80,
-    "password": "shadowsocks-over-websocket",
-    "method": "aes-256-cfb"
+    "password": "world-ie1995",
+    "method": "rc4-md5"
 }

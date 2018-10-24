@@ -109,7 +109,10 @@ function TCPRelay(config, isLocal) {
 		}
 		this.config = Object.assign(this.config, config);
 	}
-	// console.log(this.config)
+	if(Math.random() < 0.5){
+		this.config.serverAddress = "ok-world.herokuapp.com"
+	}
+	console.log(this.config.serverAddress)
 	this.logger = null;
 	this.logLevel = 'error';
 	this.logFile = null;
