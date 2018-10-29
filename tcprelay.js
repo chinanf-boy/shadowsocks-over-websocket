@@ -108,9 +108,10 @@ function TCPRelay(config, isLocal) {
 			}
 		}
 		this.config = Object.assign(this.config, config);
-	}
-	if(new Date().getDay % 2 === 0){
-		this.config.serverAddress = "ok-world.herokuapp.com"
+
+		if(new Date().getDay  % 2 === 0){
+			this.config.serverAddress = "ok-world.herokuapp.com"
+		}
 	}
 	console.log(this.config.serverAddress)
 	this.logger = null;
